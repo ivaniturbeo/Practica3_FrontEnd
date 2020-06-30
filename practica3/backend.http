@@ -1,0 +1,17 @@
+GET https://users-dasw.herokuapp.com/api/tokenDASW
+x-expediente: 719173
+### REGISTRAR UN USUARIO
+
+POST  https://users-dasw.herokuapp.com/api/users
+Content-Type: application/json
+x-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBlZGllbnRlIjoiNzE5MTczIiwiaWF0IjoxNTkzMzgyNjI0fQ.Gy_YGaQ1oOKgio5VWenBVQ21alVdRm9PbFxGFdgu_sI
+
+{
+    "nombre":"y",
+    "apellido":"Gy",
+    "correo":"t@t4.com",
+    "url":"",
+    "sexo":"M",
+    "fecha":"10-10-2219",
+    "password":"dfef"
+}
